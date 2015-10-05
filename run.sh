@@ -9,7 +9,7 @@ docker run \
     --device /dev/dri \
     --name vlc \
     --privileged --rm -ti\
-    vlc bash
+    vlc
 
 #    -v /etc/localtime:/etc/localtime:ro \
 #    -v /run:/run \

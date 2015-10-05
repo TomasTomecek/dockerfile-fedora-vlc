@@ -1,6 +1,18 @@
 # dockerfile-fedora-vlc
 
-Test if X connection works:
+build it:
+
+```
+$ ./build.sh
+```
+
+run it:
+
+```
+$ ./run.sh
+```
+
+In case of issues, you can test if X connection works:
 
 ```
 [vlc@container ~]$ xset -q
